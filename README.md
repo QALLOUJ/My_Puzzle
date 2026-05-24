@@ -45,7 +45,7 @@
 ---
 
 <p align="center">
-  <img src="./assets/walter-white.png" width="1000">
+  <img src="./images/walter-white.png" width="1000">
 </p>
 
 <p align="center">
