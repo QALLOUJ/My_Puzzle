@@ -1,7 +1,7 @@
 <h1 align="center">🧩 My Puzzle 🧩</h1>
 
 <p align="center">
-  Un jeu de puzzle interactif et fou développé en JavaScript
+  Un jeu de puzzle interactif développé en JavaScript
 </p>
 
 <p align="center">
