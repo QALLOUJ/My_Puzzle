@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puzzle Dingue</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Input file caché pour charger les images -->
+  <input type="file" id="imageInput" accept="image/*" style="display: none;">
+  
+  <!-- Conteneur du puzzle -->
+  <div id="forPuzzle"></div>
+  
+  <!-- Chronomètre -->
+  <div id="timer-container" class="timer-box">
+    <div class="timer-display">
+      <span id="timer-time">00:00</span>
+    </div>
+  </div>
+
+  <!-- Menu Principal -->
+  <div id="menu">
+    <button type="button" id="controls">close controls</button>
+    <div id="showhide">
+      <hr>
+      <p class="center"><button type="button" id="help">instructions</button></p>
+      <hr>
+
+      <p class="center">
+        <button type="button" id="default">default image</button>
+        <button type="button" id="load">load image</button>
+      </p>
+
+      <p class="center"><button type="button" id="show">show image</button></p>
+
+      <p>rotation: <select id="rotationstep">
+          <option value="0" selected>none</option>
+          <option value="1">2 steps/turn</option>
+          <option value="2">3 steps/turn</option>
+          <option value="3">4 steps/turn</option>
+          <option value="4">6 steps/turn</option>
+          <option value="5">8 steps/turn</option>
+          <option value="6">12 steps/turn</option>
+        </select></p>
+
+      <p>edge cutout: <select id="shape">
+          <option value="1" selected>classic</option>
+          <option value="2">triangle</option>
+          <option value="4">polygonal</option>
+          <option value="3">other 1</option>
+          <option value="5">other 2</option>
+        </select></p>
+
+      <p>number of pieces: <select id="nbpieces">
+          <option selected>12</option>
+          <option>25</option>
+          <option>50</option>
+          <option>100</option>
+          <option>200</option>
+          <option>500</option>
+          <option>1000</option>
+        </select></p>
+
+      <p>between connected pieces: <select id="drawmode">
+          <option value="1" selected>thin line</option>
+          <option value="2">flat</option>
+          <option value="3">beveled</option>
+        </select></p>
+
+      <p class="center">
+        <button type="button" id="start">start game</button>
+        <button type="button" id="stop">stop game</button>
+      </p>
+
+      <hr>
+      <p>storage: <button type="button" id="helpstorage">?</button></p>
+      <p class="center">
+        <button type="button" id="save">save game</button>
+        <button type="button" id="restore">restore game</button>
+      </p>
+
+      <hr>
+      <p>file: <button type="button" id="helpfile">?</button></p>
+      <p class="center">
+        <button type="button" id="fsave">save game</button>
+        <button type="button" id="frestore">restore game</button>
+      </p>
+      <p>save name: <input type="text" id="saveas"><span id="saveext"></span></p>
+    </div> <!-- showhide -->
+  </div> <!-- menu -->
+
+  <!-- Conteneur de particules pour la célébration -->
+  <div id="celebration-container"></div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
