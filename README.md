@@ -18,7 +18,7 @@
 
 ---
 
-# Jouer Maintenant
+# 🟡Jouer Maintenant
 
 <p align="center">
   <a href="https://qallouj.github.io/My_Puzzle/">
@@ -49,59 +49,59 @@
 </p>
 
 <p align="center">
-  <i>"I am not in danger, Skyler. I am the danger."</i>
+  <i>🟢"I am not in danger, Skyler. I am the danger."🟡</i>
 </p>
 
 ---
 
-# A Propos du Jeu
+#  🟡A Propos du Jeu
 
 **My Puzzle** est un jeu de puzzle interactif dingue développé en JavaScript où tu dois reconstruire une image en déplaçant et tournant les pièces correctement.
 
 ---
 
-# Comment Jouer
+# 🟡Comment Jouer
 
-## Etape 1: Charger une image
+## 🟢Etape 1: Charger une image
 
 - Clique sur **"default image"** pour utiliser l'image par défaut
 - Ou clique sur **"load image"** pour choisir ta propre image
 
-## Etape 2: Afficher l'image
+## 🟢Etape 2: Afficher l'image
 
 - Clique sur **"show image"** pour voir l'image complète avant de jouer
 
-## Etape 3: Configurer la difficulte
+## 🟢Etape 3: Configurer la difficulte
 
 Personnalise ton puzzle avec ces options:
 
-### Rotations (Rotation Steps)
+### 🟢🟢Rotations (Rotation Steps)
 - **2 steps/turn** - Facile, tu peux tourner les pièces facilement
 - **3, 4, 6 steps/turn** - Moyen, c'est plus compliqué
 - **8, 12 steps/turn** - Difficile, tu vas te perdre les rotations
 
-### Nombre de Pieces
+### 🟢🟢Nombre de Pieces
 - **12 pieces** - COMMENCE ICI pour la première fois
 - **25 pieces** - Facile
 - **50, 100 pieces** - Moyen
 - **200, 500 pieces** - Difficile
 - **1000 pieces** - T'es le danger maintenant, pas Heisenberg
 
-### Style des Bords
+### 🟢🟢Style des Bords
 - **classic** - Les bords normaux
 - **triangle, polygonal, other** - Bords plus complexes
 
-### Entre les Pieces
+### 🟢🟢Entre les Pieces
 - **thin line, flat, beveled** - Apparence visuelle des bords
 
-## Etape 4: Demarrer le Jeu
+## 🟢Etape 4: Demarrer le Jeu
 
 - Clique sur **"start game"** pour commencer
 - Un chronometre apparait en haut
 - Deplace et tourne les pièces pour assembler le puzzle
 - Termine le puzzle le plus rapidement possible
 
-## Fonctionnalites Bonus
+## 🟢Fonctionnalites Bonus
 
 - **Chronometre** - Suit le temps que tu mets
 - **Save game** - Sauvegarde ta progression
@@ -110,7 +110,7 @@ Personnalise ton puzzle avec ces options:
 
 ---
 
-# Fonctionnalites
+# 🟡Fonctionnalites
 
 - Interface fluide et intuitive
 - Chronometre intégré
@@ -124,7 +124,7 @@ Personnalise ton puzzle avec ces options:
 
 ---
 
-# Conseils pour Gagner
+# 🟡Conseils pour Gagner
 
 1. Commence avec **12 pieces** et **2 steps/turn** pour ta première partie
 2. Utilise **"show image"** autant que tu le souhaites pour vérifier
@@ -134,7 +134,7 @@ Personnalise ton puzzle avec ces options:
 
 ---
 
-# Installation
+# 🟡Installation
 
 Clone le repository:
 
@@ -150,7 +150,7 @@ index.html
 
 ---
 
-# Structure du Projet
+# 🟡Structure du Projet
 
 ```bash
 My_Puzzle/
@@ -168,7 +168,7 @@ My_Puzzle/
 
 ---
 
-# Objectif
+# 🟡Objectif
 
 Le but du jeu:
 
@@ -185,7 +185,7 @@ Simple? Essaye avec 1000 pieces...
 
 ---
 
-# Auteur
+# 🟡Auteur🟢
 
 <p align="center">
 
