@@ -1,8 +1,7 @@
-
-<h1 align="center">My Puzzle</h1>
+<h1 align="center">🧩 My Puzzle 🧩</h1>
 
 <p align="center">
-  An interactive and crazy puzzle game developed in JavaScript
+  An interactive puzzle game developed in JavaScript
 </p>
 
 <p align="center">
@@ -33,7 +32,7 @@
 
 <p align="center">
   <a href="https://qallouj.github.io/My_Puzzle/">
-    <img src="https://img.shields.io/badge/Click_here-And_become_dangerous-ff0000?style=for-the-badge&logo=flash">
+  
   </a>
 </p>
 
@@ -46,7 +45,7 @@
 ---
 
 <p align="center">
-  <img src="./assets/walter-white.png" width="1000">
+  <img src="./images/walter-white.png" width="500">
 </p>
 
 <p align="center">
@@ -57,15 +56,7 @@
 
 # About The Game
 
-**My Puzzle** is an interactive and crazy puzzle game developed in JavaScript where you must reconstruct an image by moving and rotating puzzle pieces correctly.
-
-The project was designed to practice:
-
-- JavaScript logic
-- DOM manipulation
-- Animations
-- User interactions
-- Creating a real gaming experience
+**My Puzzle** is a crazy interactive puzzle game developed in JavaScript where you must reconstruct an image by moving and rotating the pieces correctly.
 
 ---
 
@@ -73,18 +64,18 @@ The project was designed to practice:
 
 ## Step 1: Load An Image
 
-- Click **"default image"** to use the default image
-- Or click **"load image"** to choose your own image
+- Click on **"default image"** to use the default image
+- Or click on **"load image"** to choose your own image
 
 ## Step 2: Display The Image
 
-- Click **"show image"** to see the complete image before playing
+- Click on **"show image"** to see the complete image before playing
 
 ## Step 3: Configure The Difficulty
 
 Customize your puzzle with these options:
 
-### Rotation Steps
+### Rotations (Rotation Steps)
 - **2 steps/turn** - Easy, you can rotate pieces easily
 - **3, 4, 6 steps/turn** - Medium, it gets trickier
 - **8, 12 steps/turn** - Hard, you will lose your rotations
@@ -105,7 +96,7 @@ Customize your puzzle with these options:
 
 ## Step 4: Start The Game
 
-- Click **"start game"** to begin
+- Click on **"start game"** to begin
 - A timer appears at the top
 - Move and rotate pieces to assemble the puzzle
 - Complete the puzzle as fast as you can
@@ -132,20 +123,12 @@ Customize your puzzle with these options:
 
 ---
 
-# Preview
-
-<p align="center">
-  <img src="./assets/preview.png" width="900">
-</p>
-
----
-
 # Tips To Win
 
 1. Start with **12 pieces** and **2 steps/turn** for your first game
 2. Use **"show image"** as much as you want to check progress
 3. Try progressively harder difficulties
-4. If you can solve a puzzle with **1000 pieces**, you are officially THE DANGER, not Heisenberg
+4. If you manage to solve a puzzle with **1000 pieces**, you are officially THE DANGER, not Heisenberg
 5. Keep an eye on the timer - it's more fun in competition
 
 ---
@@ -174,9 +157,9 @@ My_Puzzle/
 ├── index.html
 ├── style.css
 ├── script.js
-├── assets/
+├── images/
 │   ├── walter-white.png
-│   └── preview.png
+│   └── default.jpg
 │
 ├── README.md
 └── README_EN.md
@@ -188,7 +171,7 @@ My_Puzzle/
 
 The goal of the game:
 
-- Move puzzle pieces
+- Move the puzzle pieces
 - Rotate pieces according to your configuration
 - Reconstruct the complete image
 - Finish as fast as possible
@@ -216,11 +199,11 @@ Simple? Try with 1000 pieces...
 ---
 
 <p align="center">
-  If you like the project, leave a star on GitHub
+  ⭐ If you like the project, leave a star on GitHub ⭐
 </p>
 
 ---
 
 <p align="center">
-  Made while eating a croissant
+  Made while eating a croissant 🥐
 </p>
