@@ -189,7 +189,7 @@ Simple? Essaye avec 1000 pieces...
 
 <p align="center">
 
-### QALLOUJ😚
+
 
 <a href="https://github.com/QALLOUJ">
   <img src="https://img.shields.io/badge/GitHub-QALLOUJ-181717?style=for-the-badge&logo=github">
